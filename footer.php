@@ -17,8 +17,6 @@
 		</div> <!-- div.container -->
 
 		<?php wp_footer(); ?>
-		<style type="text/css" media="screen">
-			@import url( <?php bloginfo('stylesheet_url'); ?> );
-		</style>
+
 	</body>
 </html>

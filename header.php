@@ -22,6 +22,10 @@
 		<?php wp_get_archives('type=monthly&format=link'); ?>
 		<?php wp_head(); ?>
 		<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+
+		<style type="text/css" media="screen">
+			@import url( <?php bloginfo('stylesheet_url'); ?> );
+		</style>
 	</head>
 
 	<body>

@@ -1,18 +1,19 @@
 /*
-Theme Name: Adorno Media v1.1
+Theme Name: Adorno Media
 Theme URI: http://adornomedia.com
 Description: The first ever Adorno Media Wordpress theme.
-Version: 1.1
+Version: 1.2
 Author: David Hilowitz
 Tags: minimal, red, black, white
 
 */
-body{
+body {
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-a{
-	text-decoration:none;color:#ff9999;;/*color:#00aacc;*/
+a {
+	text-decoration:none;
+	color:#ff9999;;/*color:#00aacc;*/
 }
 
 a:hover {
@@ -20,19 +21,26 @@ a:hover {
 }
 
 #master{
-	margin:0 auto 0 auto; width:690px;
+	max-width:690px;
 }
 
-#header{
-	margin:45px 0px 40px 140px;
+#header {
+	margin-top: 45px;
+	margin-bottom: 40px;
+}
+
+#logo-spacer {
+	max-width: 140px;
 }
 
 #tm{
-	display:inline;line-height: 0em
+	display:inline;
+	line-height: 0em
 }
 
 #mainContent{
-	width:470px;float:left;margin-left:10px;
+	max-width:470px;
+	margin-left:10px;
 }
 
 #mainContent h6, #mainContent h5, #mainContent h4, #mainContent h3, #mainContent h2, #mainContent h1 {
@@ -57,10 +65,8 @@ a:hover {
 #blogPost{margin-bottom:40px;}
 
 #footer{
-	clear:left;
 	margin-left:110px;
 	margin-top:-25px;
-	width:500px;
 	font-size:10pt;
 	color:#000;
 	text-align:center;
@@ -76,7 +82,7 @@ a:hover {
 
 /* sidebar */
 #leftMenu{
-	width:130px; float:left; text-align:right;
+	width:130px;
 }
 #leftMenu a{
 	color:red
@@ -95,12 +101,18 @@ a:hover {
 #menu ul {
 	margin-top:0px; 
 	margin-left:0px;	
-	list-style-type: none;padding: 0px 0px 0px 20px; width:100px; 
+	list-style-type: none;
+	padding: 0px 0px 0px 20px; 
 }
-#menu ul li {margin-top: 10px;
-	padding-bottom: 2px; }
-#menu ul li.widget_text {margin-top: 0px;
-	padding-bottom: 2px; }
+#menu ul li {
+	margin-top: 10px;
+	padding-bottom: 2px; 
+}
+
+#menu ul li.widget_text {
+	margin-top: 0px;
+	padding-bottom: 2px; 
+}
 	
 #menu ul li.widget_recent_entries ul{
 	font-size:0.7em;
@@ -110,9 +122,7 @@ a:hover {
 
 
 /* pages (general) */
-.postBody {
-	font-size: 13.5px;
-}
+
 
 #mainContent h3#pageTitle
 {
